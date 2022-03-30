@@ -27,4 +27,9 @@ public class Address {
     
     return addressline.equals(address.addressline);
   }
+  
+  @Override
+	public String toString() {
+		return addressline;
+	}
 }

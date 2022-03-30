@@ -1,9 +1,11 @@
 
-package de.hska.iwi.ads.solution.interfaces;
+package de.hska.iwi.ads.junit.interfaces;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
+
+import de.hska.iwi.ads.solution.interfaces.Circle;
 
 /**
  * A few simple tests for Circle.

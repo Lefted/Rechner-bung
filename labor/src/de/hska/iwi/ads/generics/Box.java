@@ -36,5 +36,7 @@ public abstract class Box<T> implements Comparable< Box<T> >{
     return this.volume;
   }
   
-
+  public T getContent() {
+	  return this.content;
+  }
 }

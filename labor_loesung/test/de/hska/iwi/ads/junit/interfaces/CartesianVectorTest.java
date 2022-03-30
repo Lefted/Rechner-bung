@@ -1,7 +1,8 @@
-package de.hska.iwi.ads.solution.interfaces;
+package de.hska.iwi.ads.junit.interfaces;
 
 import de.hska.iwi.ads.interfaces.Vector;
 import de.hska.iwi.ads.interfaces.VectorTest;
+import de.hska.iwi.ads.solution.interfaces.CartesianVector;
 
 class CartesianVectorTest extends VectorTest {
 
