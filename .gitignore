@@ -1,5 +1,7 @@
 # Compiled class file
 *.class
+/labor_loesung/bin/
+/labor/bin/
 
 # Log file
 *.log
