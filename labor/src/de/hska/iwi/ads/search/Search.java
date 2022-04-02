@@ -23,7 +23,7 @@ public interface Search<E extends Comparable<E>> {
   public int search(E [] a, E key, int left, int right);
   
   /**
-   * Searches the lowest index position code>key</code> in the
+   * Searches the lowest index position <code>key</code> in the
    * sorted array <code>a</code>, if key is an element of a.
    * 
    * See {@link #search(Object[], Object, int, int)} with left = 0 and right = a.length - 1.
