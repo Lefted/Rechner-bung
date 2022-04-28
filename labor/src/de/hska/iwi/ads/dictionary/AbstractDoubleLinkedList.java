@@ -7,7 +7,8 @@ public class AbstractDoubleLinkedList<K extends Comparable<K>, V> extends Abstra
 
   protected ListElement head;
   
-  protected class ListElement {
+  // @VisibleForTesting
+  public class ListElement {
     public ListElement previous,
                         next;
     public Entry<K,V> entry;
